@@ -1,0 +1,50 @@
+.container {
+	display: flex;
+	height: 50px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.option {
+	background-color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.option:hover {
+	text-decoration: underline;
+}
+
+.email {
+	background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+}
+
+.about {
+  width: 500px;
+  margin: auto;
+    background: linear-gradient(110deg, #87CEFA 0%, #3A1C71 100%);
+    padding: 5px;
+    padding-top: 0px;
+    border-radius: 25px;
+}
+
+.body {
+	font-size: 20px;
+	background: #F0F8FF;
+}
