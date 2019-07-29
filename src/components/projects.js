@@ -14,7 +14,8 @@ const Projects = () => {
 						<h1 className={SkillsStyles.title}> {obj.title}</h1>
 						<div className={SkillsStyles.body}>
 						
-						<a href={obj.link} target="_blank" rel="noopener noreferrer">View</a>
+						<div> <a href={obj.link} target="_blank" rel="noopener noreferrer">View</a> </div>
+						<div> <a href={obj.github} target="_blank" rel="noopener noreferrer">Source Code</a> </div>
 						<div>Description: {obj.desc}</div>
 						</div>
 						</div>)

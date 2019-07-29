@@ -2,7 +2,8 @@ const Info =  {
 	objs: [
 		{
 			title: "Portfolio Website",
-			link: "https://www.w3schools.com/css/css3_borders.asp",
+			link: "https://aura-davis.herokuapp.com/",
+			github: "https://github.com/Aura-Davis/Portfolio",
 			desc: "A website made using React and the Gatsby toolchain to showcase my skills and projects"
 		}
 	]
